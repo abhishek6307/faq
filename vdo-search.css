@@ -1,0 +1,126 @@
+#searchbar {
+
+    padding: 5px 12px;
+    border: 2px solid blue;
+    border-radius: 18px;
+    width: 412px;
+    /* background: linear-gradient(to left, rgb(201, 21, 36), rgb(100, 6, 155)); */
+}
+
+#search-icon {
+    font-weight: 900;
+
+    position: relative;
+    top: 2px;
+    right: 27px;
+
+}
+
+
+#modal-content-serchbar {
+    border-radius: 14px;
+    border-radius: 14px;
+    border: none;
+}
+
+#modal-content-serchbar::after {
+    position: absolute;
+    top: -4px;
+    bottom: -4px;
+    left: -4px;
+    right: -4px;
+    background: linear-gradient(to right, rgb(20 201 201), rgb(129 71 163));
+    content: '';
+    z-index: -1;
+    border-radius: 16px;
+}
+
+#modal-header-searchbar {
+    border: none;
+    background: linear-gradient(to right, rgb(20 201 201), rgb(129 71 163));
+}
+
+#search-close-icon {}
+
+
+
+/* video  */
+#popup-video {
+    width: 94%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+#video_modal_content {
+
+    width: 39.4rem;
+
+    /* background-color: #808080; */
+    height: 25.5rem;
+
+    border: 1px solid rgb(165 124 124 / 20%);
+    border-radius: 0.3rem;
+    box-shadow: azure;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+
+}
+#video-close-icon{
+    width: 100%;
+    margin: 0 auto;
+    margin: 14px 4px;
+}
+@media only screen and (max-width: 767px) {
+    #searchbar {
+        width: 330px;
+    }
+
+    #modal-content-serchbar {
+        width: 402px;
+        margin: 0 auto;
+    }
+
+    #video_modal_content {
+        width: 32.4rem;
+        margin: 0 auto;
+        height: 21.5rem;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    #searchbar {
+
+        width: 218px;
+        padding: 0 12px;
+    }
+
+
+    #modal-content-serchbar {
+
+        width: 278px;
+        margin: 0 auto;
+    }
+    #video_modal_content {
+        width: 20.4rem;
+        height: 15.5rem;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+ 
+    #video_modal_content {
+        width: 16.4rem;
+        height: 13.5rem;
+    }
+}
+@media only screen and (max-width: 295px) {
+    #searchbar {
+        width: 139px;
+        padding: 0 12px;
+    }
+
+    #modal-content-serchbar {
+        width: 204px;
+        margin: 0 auto;
+    }
+
+}
